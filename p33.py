@@ -20,4 +20,9 @@ for i in range(5):
     y=compare(a)
     if y=='yes':
         count_1+=1
-print('You entered',count_1,'numbers with same first and last digits.' )
+if count_1=1:
+    print('You entered',count_1,'number with same first and last digits.' )
+elif count_1=0:
+    print('You entered',count_1,'number with same first and last digits.' )
+else:
+    print('You entered',count_1,'numbers with same first and last digits.' )
